@@ -7,6 +7,7 @@
     ./colorscheme.nix
     ./statusline.nix
     ./telescope.nix
+    ./treesitter.nix
   ];
   
   globals.mapleader = " ";
