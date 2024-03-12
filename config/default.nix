@@ -8,6 +8,7 @@
     ./statusline.nix
     ./telescope.nix
     ./treesitter.nix
+    ./lsp.nix
   ];
   
   globals.mapleader = " ";
