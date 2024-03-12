@@ -9,6 +9,7 @@
     ./telescope.nix
     ./treesitter.nix
     ./lsp.nix
+    ./bufferline.nix
   ];
   
   globals.mapleader = " ";
