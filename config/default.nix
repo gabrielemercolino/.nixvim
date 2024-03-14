@@ -11,7 +11,7 @@
     
     # LSP
     ./plugins/lsp/lsp.nix
-    # ./plugins/lsp/extra.nix
+    ./plugins/lsp/extra.nix
     
     # Completitions
     ./plugins/completitions/cmp.nix
