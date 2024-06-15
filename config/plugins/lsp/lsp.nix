@@ -4,13 +4,12 @@
     enable = true;
     
     servers = {
-      #java-language-server.enable = true;
-      kotlin-language-server.enable = true;
       html.enable = true;
       lua-ls.enable = true;
       nil_ls.enable = true;
       pyright.enable = true;
       gopls.enable = true;
+      clangd.enable = true;
     };
 
     keymaps = {
