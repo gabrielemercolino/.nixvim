@@ -10,7 +10,11 @@
       pyright.enable = true;
       gopls.enable = true;
       clangd.enable = true;
-      rust.enable = true;
+      rust-analyzer = {
+        enable = true;
+        installCargo = true;
+        installRustc = true;
+      };
     };
 
     keymaps = {
