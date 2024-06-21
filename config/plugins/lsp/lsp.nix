@@ -10,6 +10,7 @@
       pyright.enable = true;
       gopls.enable = true;
       clangd.enable = true;
+      rust.enable = true;
     };
 
     keymaps = {
