@@ -1,12 +1,16 @@
 {
   plugins.lsp-format.enable = true;
+  
+  plugins.lsp-lines.enable = true;
+
   plugins.lsp = {
     enable = true;
+    inlayHints = true;
     
     servers = {
       html.enable = true;
       lua-ls.enable = true;
-      nil_ls.enable = true;
+      nil-ls.enable = true;
       pyright.enable = true;
       gopls.enable = true;
       clangd.enable = true;

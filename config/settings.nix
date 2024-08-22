@@ -1,9 +1,15 @@
 {
   config = {
-    options = {
+    clipboard = {
+      providers.wl-copy.enable = true;
+    };
+
+    opts = {
       # Enable relative line numbers
       number = true;
       relativenumber = true;
+
+      clipboard = "unnamedplus";
 
       # Set tabs to 2 spaces
       tabstop = 2;
@@ -25,6 +31,13 @@
       # Enable text wrap
       wrap = true;
 
+      foldmethod = "manual";
+      foldenable = false;
+
+      linebreak = true;
+
+      spell = false;
+
       # Better splitting
       splitbelow = true;
       splitright = true;
@@ -44,23 +57,17 @@
       termguicolors = true;
 
       # Enable cursor line highlight
-      cursorline = true; # Highlight the line where the cursor is located
-
+      cursorline = true; 
+      
       # Always keep 8 lines above/below cursor unless at start/end of file
       scrolloff = 8;
 
       # Reduce which-key timeout to 10ms
       timeoutlen = 10;
 
-      # Set encoding type
-      encoding = "utf-8";
-      fileencoding = "utf-8";
-
       # More space in the neovim command line for displaying messages
       cmdheight = 0;
-
-      # We don't need to see things like INSERT anymore
-      # showmode = false;
     };
+
   };
 }
