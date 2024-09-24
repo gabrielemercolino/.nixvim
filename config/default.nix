@@ -29,6 +29,7 @@
     ./plugins/utils/whichkey.nix
     ./plugins/utils/extra-plugins.nix
     ./plugins/utils/markdown-preview.nix
+    ./plugins/utils/web-devicons.nix
   ];
 
 }
