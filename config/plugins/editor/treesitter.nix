@@ -11,7 +11,7 @@
     nixvimInjections = true;
     grammarPackages = pkgs.vimPlugins.nvim-treesitter.allGrammars;
   };
-  
+
   plugins.treesitter-textobjects = {
     enable = false;
     select = {

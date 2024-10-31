@@ -15,7 +15,7 @@
         foldSection = false;
         title = "Header";
         margin = 5;
-        
+
         content = [
           ""
           ""
@@ -31,7 +31,7 @@
           " ╚██████╗██║██║░░██║╚██████╔╝███████╗███████╗╚██████╔╝██╗██║░╚████║░╚████╔╝░██║██║░╚═╝░██║"
           " ░╚═════╝╚═╝╚═╝░░╚═╝░╚═════╝░╚══════╝╚══════╝░╚═════╝░╚═╝╚═╝░░╚═══╝░░╚═══╝░░╚═╝╚═╝░░░░░╚═╝"
         ];
-        
+
         highlight = "Statement";
         defaultColor = "";
         oldfilesAmount = 0;
@@ -44,7 +44,7 @@
         foldSection = false;
         title = "Menu";
         margin = 5;
-        
+
         content = [
           [
             " Find File"
@@ -62,7 +62,7 @@
             "<leader>fb"
           ]
         ];
-        
+
         highlight = "string";
         defaultColor = "";
         oldfilesAmount = 0;
@@ -70,7 +70,10 @@
     };
 
     options = {
-      paddings = [1 3];
+      paddings = [
+        1
+        3
+      ];
     };
 
     parts = [

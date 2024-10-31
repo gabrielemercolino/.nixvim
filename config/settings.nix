@@ -57,8 +57,8 @@
       termguicolors = true;
 
       # Enable cursor line highlight
-      cursorline = true; 
-      
+      cursorline = true;
+
       # Always keep 8 lines above/below cursor unless at start/end of file
       scrolloff = 8;
 

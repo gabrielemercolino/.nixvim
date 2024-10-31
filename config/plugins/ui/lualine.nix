@@ -1,4 +1,4 @@
-_:{
+_: {
   plugins.lualine = {
     enable = true;
 
@@ -11,7 +11,10 @@ _:{
       ];
 
       disabledFiletypes = {
-        statusline = ["startup" "alpha"];
+        statusline = [
+          "startup"
+          "alpha"
+        ];
       };
 
       theme = "catppuccin";

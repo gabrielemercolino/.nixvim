@@ -9,7 +9,7 @@
       closeIcon = " ";
       bufferCloseIcon = "󰱝 ";
       modifiedIcon = "󰔯 ";
-  
+
       offsets = [
         {
           filetype = "neo-tree";
@@ -18,10 +18,10 @@
           text_align = "left";
         }
       ];
-    
-    };
-  
-};
 
-  keymaps = [];
+    };
+
+  };
+
+  keymaps = [ ];
 }
