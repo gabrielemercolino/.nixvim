@@ -16,8 +16,10 @@
       clangd.enable = true;
       rust_analyzer = {
         enable = true;
-        installCargo = true;
-        installRustc = true;
+        # i think using the currently installed cargo and rustc is better
+        # so i disable it from nixvim
+        installCargo = false;
+        installRustc = false;
       };
     };
 
