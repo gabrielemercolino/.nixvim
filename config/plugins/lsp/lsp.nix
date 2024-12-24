@@ -14,6 +14,7 @@
       pyright.enable = true;
       gopls.enable = true;
       clangd.enable = true;
+      ols.enable = true;
       rust_analyzer = {
         enable = true;
         # i think using the currently installed cargo and rustc is better
